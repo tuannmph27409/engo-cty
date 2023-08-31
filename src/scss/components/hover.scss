@@ -1,0 +1,25 @@
+.section__img-design {
+    overflow: hidden;
+
+    img {
+        transition: 0.3s;
+    }
+}
+
+.section__img-design:hover {
+    img {
+        transform: scale(1.5);
+    }
+}
+
+.header-menu a:hover {
+    color: red;
+}
+
+.button--blue:hover {
+    background-color: rgb(227, 71, 71);
+}
+
+.button--green:hover {
+    background-color: rgb(178, 233, 13);
+}

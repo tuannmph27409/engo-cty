@@ -370,6 +370,7 @@ h6 {
   font-weight: 700;
   line-height: 1.4;
   color: #111;
+  margin: 0;
 }
 
 h1 {
@@ -807,6 +808,29 @@ h6 {
   color: white;
   font-size: 30px;
   padding: 30px;
+}
+
+.section__img-design {
+  overflow: hidden;
+}
+.section__img-design img {
+  transition: 0.3s;
+}
+
+.section__img-design:hover img {
+  transform: scale(1.5);
+}
+
+.header-menu a:hover {
+  color: red;
+}
+
+.button--blue:hover {
+  background-color: rgb(227, 71, 71);
+}
+
+.button--green:hover {
+  background-color: rgb(178, 233, 13);
 }
 
 /*# sourceMappingURL=styles.css.map */
