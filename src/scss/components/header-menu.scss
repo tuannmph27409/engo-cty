@@ -6,8 +6,13 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 120%;
     letter-spacing: 0.8px;
     padding-right: 20px;
     margin-left: 20px;
+    margin-top: 15px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
 }

@@ -23,8 +23,6 @@
 }
 
 
-
-
 .page-section__full {
     padding: 30px;
     width: 100%;
@@ -50,6 +48,48 @@
     left: 38px;
     z-index: 2;
 }
+
+.page-section_content {
+    color: #7E7FA0;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 185%;
+    letter-spacing: 1.5px;
+    padding: 30px 0px 20px 0px;
+}
+
+.page-section__bg-color-2 {
+    position: relative;
+    z-index: -1;
+    border-radius: 50%;
+    background: #7E7FA0;
+    width: 26px;
+    height: 1px;
+    top: 13px;
+    right: 0px;
+}
+
+.page-section_author {
+    color: #2D2A3E;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 133.333%;
+    letter-spacing: 0.72px;
+    padding: 0px 0px 50px 40px;
+}
+
+.page-section__items-1 {
+    background-color: #FDF0E7;
+    border-radius: 50%;
+    width: 122px;
+    height: 122px;
+    padding: 22px;
+}
+
 
 .section__items-1 {
     position: relative;
@@ -79,4 +119,85 @@
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0.5px;
+}
+
+.section__items-design {
+    width: 433px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.05);
+}
+
+.section__img {
+    width: 100%;
+}
+
+.section__img-design {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.section__design-items {
+    display: flex;
+}
+
+.section__design-sales {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.316%;
+    letter-spacing: -0.57px;
+    background: #5D69FB;
+    width: 100px;
+    height: 36px;
+    padding: 6px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    bottom: 31px;
+    left: 0px;
+}
+
+.section__design-svg {
+    position: relative;
+    z-index: 2;
+    bottom: 31px;
+    left: 0px;
+}
+
+.section__design-title a {
+    color: #000;
+    font-family: Manrope;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 114.286%;
+    letter-spacing: 0.21px;
+    text-decoration: none;
+    padding: 0px 0px 4px 21px;
+}
+
+.section__design-dh {
+    display: flex;
+    padding: 0px 0px 00px 21px;
+}
+
+.bg {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(129, 127, 138, 1);
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
+
+.date {
+    padding: 10px 10px 10px 0px;
+}
+
+.comment {
+    padding: 10px 0px 10px 10px;
 }
