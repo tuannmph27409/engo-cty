@@ -19,8 +19,11 @@
 
 .button--blue:hover {
     background-color: rgb(227, 71, 71);
+    transform: scale(1.3);
+
 }
 
 .button--green:hover {
     background-color: rgb(178, 233, 13);
+    transform: scale(1.3)
 }
