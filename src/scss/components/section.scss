@@ -30,7 +30,7 @@
     background: #FCF3EC;
 }
 
-.section__items {
+.page-section__items {
     width: 420px;
     min-height: 309px;
     flex-shrink: 0;
@@ -39,7 +39,7 @@
     min-height: 100%;
 }
 
-.section__items-color-1 {
+.page-section__items-color-1 {
     position: relative;
     background-color: #FFF1F0;
     width: 93px;
@@ -98,14 +98,14 @@
 }
 
 
-.section__items-1 {
+.page-section__items-2 {
     position: relative;
     top: 66px;
     left: 67px;
     z-index: 3;
 }
 
-.section__title-1 {
+.page-section__title-1 {
     color: #2D2A3E;
     font-family: Manrope;
     font-size: 20px;
@@ -117,7 +117,7 @@
 
 }
 
-.section__conten-1 {
+.page-section__conten-1 {
     padding: 16px 40px 36px 39px;
     color: #7E7FA0;
     font-family: Manrope;
@@ -128,7 +128,7 @@
     letter-spacing: 0.5px;
 }
 
-.section__items-design {
+.page-section__items-design {
     width: 433px;
     height: 360px;
     flex-shrink: 0;
@@ -137,19 +137,19 @@
     box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.05);
 }
 
-.section__img {
+.page-section__img {
     width: 100%;
 }
 
-.section__img-design {
+.page-section__img-design {
     border-radius: 8px 8px 0px 0px;
 }
 
-.section__design-items {
+.page-section__design-items {
     display: flex;
 }
 
-.section__design-sales {
+.page-section__design-sales {
     color: #FFF;
     font-family: Manrope;
     font-size: 19px;
@@ -168,14 +168,14 @@
     left: 0px;
 }
 
-.section__design-svg {
+.page-section__design-svg {
     position: relative;
     z-index: 2;
     bottom: 25px;
     left: 0px;
 }
 
-.section__design-title a {
+.page-section__design-title a {
     color: #000;
     font-family: Manrope;
     font-size: 21px;
@@ -193,9 +193,16 @@
     -webkit-box-orient: vertical;
 }
 
-.section__design-dh {
+.page-section__design-dh {
     display: flex;
-    padding: 0px 0px 00px 21px;
+    padding: 0px 0px 0px 21px;
+    color: #817F8A;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.3px;
 }
 
 .bg {

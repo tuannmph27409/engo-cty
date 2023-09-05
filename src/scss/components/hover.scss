@@ -1,4 +1,4 @@
-.section__img-design {
+.page-section__img-design {
     overflow: hidden;
 
     img {
@@ -7,27 +7,27 @@
     }
 }
 
-.section__img-design:hover {
+.page-section__img-design:hover {
     img {
         transform: scale(1.5);
     }
 }
 
-.header-menu a:hover {
+.header__menu a:hover {
     color: red;
 }
 
-.button--blue:hover {
+.button__blue:hover {
     background-color: rgb(227, 71, 71);
     transform: scale(1.3);
 
 }
 
-.button--green:hover {
+.button__green:hover {
     background-color: rgb(178, 233, 13);
-    transform: scale(1.3)
+    transform: scale(1.3);
 }
 
-.section__design-title a:hover {
+.page-section__design-title a:hover {
     color: rgb(31, 177, 235);
 }

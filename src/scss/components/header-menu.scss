@@ -2,9 +2,8 @@
     display: flex;
 }
 
-.header-menu ul li {
+.header__menu ul li {
     display: inline-block;
-    color: #595451;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
@@ -14,12 +13,13 @@
     padding: 7px 30px 0px 30px;
 }
 
-.header-menu ul li a {
+.header__menu ul li a {
     text-decoration: none;
     transition: 0.3s;
+    color: #525159;
 }
 
-.header-menu {
+.header__menu {
     flex-grow: 1;
     text-align: right;
 }
