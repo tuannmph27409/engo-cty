@@ -26,20 +26,8 @@
     z-index: -1;
 }
 
-.text-box__color1::before {
-    background-color: #FBE9E9;
-}
-
-.text-box__color2::before {
-    background-color: #E7FAF9;
-}
-
-.text-box__color3::before {
-    background-color: #F5ECFD;
-}
-
-.text-box__color4::before {
-    background-color: #E7EFFB;
+.text-box__title-one--color::before {
+    background-color: var(--color);
 }
 
 .text-box__content {

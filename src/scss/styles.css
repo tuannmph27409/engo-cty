@@ -511,7 +511,7 @@ a {
   padding: 38px;
 }
 
-.page-section_content {
+.page-section__content {
   color: #7E7FA0;
   font-family: Manrope;
   font-size: 18px;
@@ -538,7 +538,7 @@ a {
   left: 0px;
 }
 
-.page-section_author {
+.page-section__author {
   color: #2D2A3E;
   font-family: Manrope;
   font-size: 18px;
@@ -593,7 +593,6 @@ a {
 .page-section__items-design {
   gap: 44px;
   width: 433px;
-  height: 360px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #FFF;
@@ -668,7 +667,7 @@ a {
   letter-spacing: 0.3px;
 }
 
-.bg {
+.page-section__bg {
   width: 4px;
   height: 4px;
   background-color: rgb(129, 127, 138);
@@ -677,11 +676,11 @@ a {
   top: 20px;
 }
 
-.date {
+.page-section__date {
   padding: 10px 10px 10px 0px;
 }
 
-.comment {
+.page-section__comment {
   padding: 10px 0px 10px 10px;
 }
 
@@ -749,20 +748,8 @@ a {
   z-index: -1;
 }
 
-.text-box__color1::before {
-  background-color: #FBE9E9;
-}
-
-.text-box__color2::before {
-  background-color: #E7FAF9;
-}
-
-.text-box__color3::before {
-  background-color: #F5ECFD;
-}
-
-.text-box__color4::before {
-  background-color: #E7EFFB;
+.text-box__title-one--color::before {
+  background-color: var(--color);
 }
 
 .text-box__content {
@@ -874,6 +861,7 @@ a {
 
 .page-section__design-title a:hover {
   color: #616AE8;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=styles.css.map */
