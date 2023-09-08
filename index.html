@@ -15,24 +15,30 @@
     <title>Engo Creative</title>
 </head>
 
-
 <body>
     <div id="root">
-        <header class="header" style="padding:  55px;">
+        <header class="header">
             <div class="header__home">
-                <a href="#"><img src="./src/assets/src/Frame.jpg" alt="" srcset="" width="164px"></a>
+                <a href="#"><img src="./src/assets/src/Frame.jpg" alt="" srcset="" width=""></a>
                 <div class="header__menu-right">
+                    <input type="checkbox" id="header__input">
+                    <div class="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__menu-ul">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Application</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                        <div class="header__button">
+                            <button class=" button button--blue">Get started</button>
+                            <button class="button button--green"></button>
+                        </div>
 
-                    <ul class="header__menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Application</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-
-                    <div class="header__button">
-                        <button class=" button button--blue">Get started</button>
-                        <button class="button button--green"></button>
                     </div>
                 </div>
             </div>
@@ -112,12 +118,13 @@
                         <div class="col" style="--col-lg: 6;">
                             <img class="page-section__img" src="./src/assets/src/Screenshot 2023-08-28 153953.png"
                                 alt="">
-                            <div class="page-section__bg page-section__bg-left" style="background-color: #F0F9FE;">
+                            <div class="page-section__bg page-section__bg--color"
+                                style="background-color: rgba(240, 249, 254, 1)">
                             </div>
                         </div>
                         <!-- end-page-section-1 -->
-                        <div class="col pd-90" style="--col-lg: 6;">
-                            <div class="page-section__bg-right" style="padding: 0px 0px 0px 30px;">
+                        <div class="col" style="--col-lg: 6;">
+                            <div class="page-section__bg-right">
                                 <div class="page-section__items-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83"
                                         fill="none">
@@ -133,7 +140,7 @@
                                 </div>
                                 <div class="page-section__bg-color-2"></div>
                                 <div class="page-section__author">Dustin Barnes</div>
-                                <div>
+                                <div class="page-section__svg-s1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="21" viewBox="0 0 80 21"
                                         fill="none">
                                         <circle cx="8" cy="10" r="8" fill="#E8E8EB" />
@@ -161,7 +168,7 @@
             <div class="page-section__full">
                 <div class="container">
                     <div class="row" style="--grid-col-gap-vertical: 55px">
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"
@@ -180,7 +187,7 @@
                             </div>
                         </div>
                         <!-- end-s-items1 -->
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2" style="background-color: #F2E9FA;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38"
@@ -199,7 +206,7 @@
                             </div>
                         </div>
                         <!-- end-s-items2 -->
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2" style="background-color: #E4F7FA;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
@@ -220,7 +227,7 @@
                             </div>
                         </div>
                         <!-- end-s-items3 -->
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2" style="background-color: #E4E6FB;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41"
@@ -239,7 +246,7 @@
                             </div>
                         </div>
                         <!-- end-s-items1 -->
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2" style="background-color: #FDE9F4;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39"
@@ -254,11 +261,14 @@
                                     In addition Default WordPress Login,
                                     Customer can easily signin /signup to your
                                     site with their Facebook and Apple.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem aliquid
+                                    temporibus quam eos a pariatur, quibusdam illo maxime quos natus blanditiis vero
+                                    soluta commodi fuga nobis animi placeat deleniti?
                                 </div>
                             </div>
                         </div>
                         <!-- end-s-items2 -->
-                        <div class="col" style="--col-cl: 4;">
+                        <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                             <div class="page-section__items">
                                 <div class="page-section__items-2" style="background-color: #E4F9E6;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"
@@ -294,272 +304,254 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 14.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 14.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Alii autem quibus ego assentior</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Alii autem quibus ego assentior</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
-                    <!-- end-design-1 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img"
-                                            src="./src/assets/src/Rectangle 16.png"></a>
-                                </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Sunt autem nusquam hoc epicurus in Lorem, ipsum dolor sit amet
-                                        consectetur
-                                        adipisicing elit. Dolorem voluptates qui soluta quibusdam blanditiis eligendi,
-                                        deleniti nulla, culpa natus in voluptatem inventore dolore accusamus esse neque?
-                                        Reprehenderit voluptas blanditiis fugiat.</a>
+                    <!-- end-design-1 -->
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 16.png"></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            </div>
+
+                            <div class="page-section__design-title">
+                                <a href="#">Sunt autem nusquam hoc epicurus in Lorem, ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Dolorem voluptates qui soluta quibusdam blanditiis eligendi,
+                                    deleniti nulla, culpa natus in voluptatem inventore dolore accusamus esse neque?
+                                    Reprehenderit voluptas blanditiis fugiat.</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-2 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 19.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 19.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">How To Write Better Advertising Copy</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">How To Write Better Advertising Copy</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-3 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 24.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 24.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Omne animal simul atque in</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Omne animal simul atque in</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-4 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 25.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 25.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Torquatos nostros quos tu tam</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Torquatos nostros quos tu tam</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-5 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 26.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 26.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Promote With Postcards</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Promote With Postcards</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-6 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 33.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 33.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Probabo, inquit, sic agam, ut ita ruant Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Sint magnam officia voluptates deserunt quis.
-                                        Alias
-                                        vero amet illum velit nihil iusto laudantium, iure voluptatum, commodi, fugit
-                                        dolor!
-                                        Praesentium, totam id.</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Probabo, inquit, sic agam, ut ita ruant Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Sint magnam officia voluptates deserunt quis.
+                                    Alias
+                                    vero amet illum velit nihil iusto laudantium, iure voluptatum, commodi, fugit
+                                    dolor!
+                                    Praesentium, totam id.</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-7 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 34.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 34.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Epicurus in armatum hostem impetum</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="date">November 9, 2019</div>
-                                    <div class="bg"></div>
-                                    <div class="comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Epicurus in armatum hostem impetum</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="date">November 9, 2019</div>
+                                <div class="bg"></div>
+                                <div class="comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
                     <!-- end-design-8 -->
-                    <div class="page-section__items-product">
-                        <div class="col" style="--col-lg: 4;">
-                            <div class="page-section__items-design">
-                                <div class="page-section__img-design">
-                                    <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 35.png"
-                                            alt=""></a>
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+                        <div class="page-section__items-design">
+                            <div class="page-section__img-design">
+                                <a href="#"><img class="page-section__img" src="./src/assets/src/Rectangle 35.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="page-section__design-items">
+                                <div class="page-section__design-sales">Design</div>
+                                <div class="page-section__design-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25"
+                                        fill="none">
+                                        <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
+                                    </svg>
                                 </div>
-                                <div class="page-section__design-items">
-                                    <div class="page-section__design-sales">Design</div>
-                                    <div class="page-section__design-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="25"
-                                            viewBox="0 0 17 25" fill="none">
-                                            <path d="M0 0V25H17L0 0Z" fill="#3E46A4" />
-                                        </svg>
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="page-section__design-title">
-                                    <a href="#">Low Cost Advertising</a>
-                                </div>
-                                <div class="page-section__design-dh">
-                                    <div class="page-section__date">November 9, 2019</div>
-                                    <div class="page-section__bg"></div>
-                                    <div class="page-section__comment">03 Comments</div>
-                                </div>
+                            <div class="page-section__design-title">
+                                <a href="#">Low Cost Advertising</a>
+                            </div>
+                            <div class="page-section__design-dh">
+                                <div class="page-section__date">November 9, 2019</div>
+                                <div class="page-section__ch"></div>
+                                <div class="page-section__comment">03 Comments</div>
                             </div>
                         </div>
                     </div>
@@ -576,5 +568,13 @@
         <!-- end-footer -->
     </div>
 </body>
+<script>
+    const header__menu = document.querySelector('.header__menu-right');
+    const menuCheckbox = header__menu.querySelector('input');
+
+    header__menu.addEventListener('click', function () {
+        menuCheckbox.checked = !menuCheckbox.checked;
+    });
+</script>
 
 </html>

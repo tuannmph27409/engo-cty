@@ -12,6 +12,9 @@
     line-height: 24px;
     letter-spacing: 1.3px;
     position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .text-box__title-one:before {
@@ -42,4 +45,23 @@
     line-height: 170%;
     letter-spacing: 0.74px;
 
+}
+
+@media (max-width : 1200px) {
+    .text-box__title-one {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .text-box__title-one:before {
+        width: 65px;
+        height: 65px;
+    }
+
+    .text-box__content {
+        font-size: 16px;
+        padding: 10px 0px 0px 0px;
+        font-family: Manrope;
+        line-height: 150%;
+    }
 }

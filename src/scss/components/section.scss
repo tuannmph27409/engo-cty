@@ -15,7 +15,7 @@
     left: 0;
 }
 
-.page-section__bg-left {
+.page-section__bg--color {
     width: 39.6875%;
     height: 645px;
     flex-shrink: 0;
@@ -31,7 +31,7 @@
 }
 
 .page-section__items {
-    width: 420px;
+    // width: 420px;
     min-height: 309px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -120,11 +120,15 @@
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0.5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 .page-section__items-design {
     gap: 44px;
-    width: 433px;
+    // width: 433px;
     // height: 360px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -200,7 +204,7 @@
     letter-spacing: 0.3px;
 }
 
-.page-section__bg {
+.page-section__ch {
     width: 4px;
     height: 4px;
     background-color: rgba(129, 127, 138, 1);
@@ -215,4 +219,88 @@
 
 .page-section__comment {
     padding: 10px 0px 10px 10px;
+}
+
+.page-section__bg-right {
+    padding: 55px 0px 0px 40px;
+
+}
+
+
+@media (max-width : 1200px) {
+    .page-section {
+        padding: 30px 40px;
+    }
+
+    .page-section__bg--color {
+        width: 39.6875%;
+        height: 490px;
+        position: absolute;
+        left: -50px;
+    }
+
+    .page-section__bg-right {
+        padding: 30px 0px 0px 20px;
+    }
+
+    .page-section__items-1 {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .page-section__content {
+        padding: 15px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .page-section__svg-s1 svg {
+        width: 60px;
+        height: 18px;
+    }
+
+    .page-section__items-1 svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .page-section__author {
+        font-size: 16px;
+        padding: 0px 0px 30px 30px;
+    }
+
+    .page-section__bg-color-2::before {
+        width: 19px;
+    }
+
+    .page-section__items-2 {
+        width: 63px;
+        height: 63px;
+    }
+
+    .page-section__items-2 svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-section__title-1 {
+        font-size: 17px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .page-section__conten-1 {
+        padding: 12px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    .page-section__items {
+        padding: 30px;
+    }
+
+    // .page-section__items-design {
+    //     width: 350px;
+    //     align-items: center;
+    // }
 }
