@@ -52,6 +52,14 @@
     padding: 55px;
 }
 
+.header__home img {
+    width: 140px;
+}
+
+#header__input {
+    display: none;
+}
+
 
 @media (max-width: 1200px) {
     .header {
@@ -92,7 +100,7 @@
         padding: 20px;
         position: relative;
         right: 0px;
-        transition: 20s;
+        transition: 1s;
     }
 
     .header__menu {
@@ -134,12 +142,4 @@
     }
 
 
-}
-
-.header__home img {
-    width: 140px;
-}
-
-#header__input {
-    display: none;
 }
