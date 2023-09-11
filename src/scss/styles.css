@@ -418,6 +418,11 @@ a {
 }
 
 .container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
   max-width: var(--grid-container-width);
   margin: auto;
   padding-left: var(--grid-container-gap);
@@ -449,7 +454,7 @@ a {
     width: calc(var(--col-md) / var(--grid) * 100%);
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   .col {
     width: calc(var(--col-lg) / var(--grid) * 100%);
   }
@@ -492,6 +497,7 @@ a {
   height: 645px;
   flex-shrink: 0;
   border-radius: 0px 48px 48px 0px;
+  background-color: rgb(240, 249, 254);
 }
 
 .page-section__full {
@@ -698,6 +704,7 @@ a {
     height: 490px;
     position: absolute;
     left: -50px;
+    background-color: rgb(240, 249, 254);
   }
   .page-section__bg-right {
     padding: 30px 0px 0px 20px;
@@ -768,6 +775,7 @@ a {
     height: 460px;
     position: absolute;
     left: -50px;
+    background-color: rgb(240, 249, 254);
   }
   .page-section__bg-right {
     padding: 65px 0px 0px 15px;
@@ -835,6 +843,7 @@ a {
     height: 390px;
     position: absolute;
     left: -50px;
+    background-color: #FFF;
   }
   .page-section__bg-right {
     padding: 20px 0px 0px 10px;
@@ -1100,8 +1109,7 @@ a {
 .text-box__content {
   padding: 20px 0px 0px 0px;
   flex-shrink: 0;
-  width: 399;
-  min-height: 141px;
+  min-height: 100px;
   color: #7E7FA0;
   font-family: Manrope;
   font-size: 20px;
@@ -1124,6 +1132,7 @@ a {
     padding: 10px 0px 0px 0px;
     font-family: Manrope;
     line-height: 150%;
+    min-height: 80px;
   }
 }
 @media (max-width: 992px) {
@@ -1142,6 +1151,7 @@ a {
     padding: 10px 0px 0px 0px;
     font-family: Manrope;
     line-height: 140%;
+    min-height: 60px;
   }
 }
 @media (max-width: 768px) {
@@ -1160,6 +1170,7 @@ a {
     padding: 10px 0px 0px 0px;
     font-family: Manrope;
     line-height: 140%;
+    min-height: 40px;
   }
 }
 @media (max-width: 576px) {
